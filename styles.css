@@ -15,11 +15,23 @@
   font-family: var(--lato);
 }
 
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--black);
+}
+
+
+
 /* NAVBAR */
 .mobile{
   display: flex;
   padding: 1rem;
   background-color: rgb(243,243,243);
+}
+
+.desktop{
+  display: none;
 }
 
 /* HEADLINE */
@@ -308,4 +320,65 @@ footer p{
   color: white;
   font-size: 14px;
   width: 300px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 768px) {
+
+  .mobile{
+    display: none;
+  }
+
+  .desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    /* max-width: 80%; */
+    margin: 0 10%;
+  }
+
+  .desktop img{
+    height: 30px;
+  }
+
+  .desktop div{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .desktop div ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+  }
+
+  .campaign a{
+    border: 4px solid var(--fire-orange);
+    padding: 10px;
+    color: var(--fire-orange);
+    flex-shrink: 0;
+  }
+
+  .headline-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    max-width: 800px;
+  }
+
+  h2{
+    font-size: 35px;
+  }
+
+  h1{
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .headline-container p{
+    max-width: 600px;
+  }
 }
