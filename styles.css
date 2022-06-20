@@ -1,5 +1,7 @@
+/* GENERAL */
 :root {
-  --light-black: #272a31;
+  --black: #272a31;
+  --light-black: #595959;
   --fire-orange: #ec5242;
   --light-gray: #d3d3d3;
   --coco: 'COCOGOOSE', sans-serif;
@@ -16,15 +18,16 @@ body{
   padding: 0;
 }
 
+/* NAVBAR */
 .mobile{
   display: flex;
   padding: 1rem;
 }
 
+/* HEADLINE */
 .headline{
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
   margin-top: 3rem;
   padding: 1rem;
   margin-bottom: 3rem;
@@ -68,4 +71,61 @@ h4{
   color: var(--light-black);
   font-size: 14px;
   font-weight: 600;
+}
+
+/* PROGRAM */
+.program{
+  background-color: var(--black);
+  color: white;
+  padding: 1rem;
+  font-family: var(--lato);
+}
+
+h3{
+  margin: auto;
+  width: fit-content;
+  padding: 1rem;
+}
+
+hr{
+  border: 1px solid var(--fire-orange);
+  width: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.program-container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.program-item{
+  background-color: #3c3f46;
+  display: flex;
+  align-items: center;
+  font-family: var(--lato);
+  gap: 20px;
+  padding: 10px;
+}
+
+.program-item p:first-of-type{
+  color: var(--fire-orange);
+  font-weight: 700;
+}
+
+.program-item p:last-of-type{
+  font-size: 12px;
+}
+
+button{
+  padding: 20px;
+  background-color: var(--fire-orange);
+  border: none;
+  color: white;
+  margin: 30px;
+  font-family: var(--lato);
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
 }
