@@ -87,7 +87,7 @@ h3{
   padding: 1rem;
 }
 
-hr{
+.title-rule{
   border: 1px solid var(--fire-orange);
   width: 40px;
   margin: auto;
@@ -128,4 +128,89 @@ button{
   font-weight: 400;
   font-size: 16px;
   cursor: pointer;
+}
+
+/* DJS SECTION */
+.djs{
+  padding: 1rem;
+}
+
+.grid-container{
+  display: grid;
+  gap: 20px;
+}
+
+.grid-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid-item img{
+  width: 120px;
+  height: 120px;
+}
+
+.description{
+  font-family: var(--lato);
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+
+.description p:nth-child(1){
+  font-weight: 900;
+}
+
+.description p:nth-child(2){
+  color: var(--fire-orange);
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dj-rule{
+  width: 20px;
+}
+
+.description p:nth-child(4){
+  font-size: 10px;
+}
+
+/* LINEUP */
+.lineup{
+  background-color: var(--black);
+  color: white;
+  padding: 1rem;
+  font-family: var(--lato);
+}
+
+.logos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logos img{
+  height: 40px;
+}
+
+/* FOOTER */
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+footer img{
+  width: 140px;
+}
+
+footer p{
+  font-family: var(--lato);
+  font-size: 12px;
 }
