@@ -1,0 +1,14 @@
+:root {
+  --light-black: #272a31;
+  --fire-orange: #ec5242;
+  --light-gray: #d3d3d3;
+  --coco: 'COCOGOOSE', sans-serif;
+  --lato: 'Lato', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
