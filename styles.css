@@ -6,9 +6,66 @@
   --lato: 'Lato', sans-serif;
 }
 
+body{
+  background-color: rgb(243,243,243)
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+.mobile{
+  display: flex;
+  padding: 1rem;
+}
+
+.headline{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  margin-top: 3rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+h2{
+  font-family: var(--lato);
+  font-size: 14px;
+  color: var(--fire-orange);
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+h1{
+  font-family: var(--coco);
+  font-size: 32px;
+  color: var(--fire-orange);
+  line-height: 32px;
+}
+
+.headline p:first-of-type{
+  font-family: var(--lato);
+  padding: 15px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 3px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--light-black);
+  font-weight: 600;
+}
+
+h4{
+  font-family: var(--coco);
+  font-size: 24px;
+  color: var(--light-black);
+}
+
+.headline p:last-of-type{
+  font-family: var(--lato);
+  color: var(--light-black);
+  font-size: 14px;
+  font-weight: 600;
+}
