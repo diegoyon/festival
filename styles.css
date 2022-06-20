@@ -8,10 +8,6 @@
   --lato: 'Lato', sans-serif;
 }
 
-body{
-  background-color: rgb(243,243,243)
-}
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -22,15 +18,18 @@ body{
 .mobile{
   display: flex;
   padding: 1rem;
+  background-color: rgb(243,243,243);
 }
 
 /* HEADLINE */
 .headline{
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  
   padding: 1rem;
-  margin-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: rgb(243,243,243);
 }
 
 h2{
@@ -130,6 +129,11 @@ button{
   cursor: pointer;
 }
 
+button:hover, button:active{
+  background-color: white;
+  color: var(--fire-orange);
+}
+
 /* DJS SECTION */
 .djs{
   padding: 1rem;
@@ -204,6 +208,7 @@ footer{
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
+  align-items: center;
 }
 
 footer img{
