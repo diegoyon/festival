@@ -138,9 +138,14 @@ h3{
   padding: 10px;
 }
 
+.program-item i{
+  width: 100px;
+}
+
 .program-item p:first-of-type{
   color: var(--fire-orange);
   font-weight: 700;
+  width: 200px;
 }
 
 .program-item p:last-of-type{
@@ -183,6 +188,7 @@ button:hover, button:active{
 .grid-item img{
   width: 120px;
   height: 120px;
+  object-fit: cover;
 }
 
 .description{
