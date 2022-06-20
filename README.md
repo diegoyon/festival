@@ -1,51 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Ultra Music Festival Website
 
-> Description the project.
+> In this project I made a fully responsive website of a Music Festival.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://diegoyon.github.io/festival/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To obtain a local copy of the project follow this steps:
+- Open your console.
+- Type the following "git clone https://github.com/diegoyon/festival.git" if you are using HTTPS or "git clone git@github.com:diegoyon/festival.git" if you are using a SSH key.
+- Press ENTER to create your local clone.
 
-To get a local copy up and running follow these simple example steps.
+After creating it, you can open the "index.html" file in your browser.
 
-### Prerequisites
+## Author
 
-### Setup
+👤 **Diego Yon**
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@diegoyon](https://github.com/diegoyon)
+- Twitter: [@diegoyon](https://twitter.com/diegoyon)
+- LinkedIn: [Diego Yon](https://www.linkedin.com/in/diego-yon-9311aa41/)
 
 ## 🤝 Contributing
 
@@ -59,9 +43,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Cindy Shin in Behance
+- Creative Commons
 
 ## 📝 License
 
