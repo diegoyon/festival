@@ -565,4 +565,18 @@ button:active {
     gap: 30px;
     justify-content: center;
   }
+
+  /* LOGOS ABOUT */
+  .lineup-about{
+    display:none;
+  }
+
+  .footer-about{
+    background-color: var(--black);
+    color: white;
+  }
+
+  .footer-about img{
+    content: url(./logos/ultra-white.png);
+  }
 }
