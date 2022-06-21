@@ -39,31 +39,6 @@ footer p {
   font-size: 12px;
 }
 
-/* SOCIAL */
-.social{
-  background-color: var(--light-black);
-  display: none;
-}
-
-.social div{
-  display: flex;
-  margin: 0 10%;
-  padding: 10px 0;
-  justify-content: end;
-  gap: 1rem;
-  align-items: center;
-  font-size: 14px;
-}
-
-.social div img{
-  height: 100%;
-}
-
-.social div a{
-  color: white;
-  height: 18px;
-}
-
 /* NAVBAR */
 .mobile {
   display: flex;
@@ -260,7 +235,7 @@ button:active {
   gap: 10px;
 }
 
-.image-container{
+.image-container {
   position: relative;
   width: 120px;
   height: 120px;
@@ -271,11 +246,11 @@ button:active {
   height: 100px;
   object-fit: cover;
   position: absolute;
-  top:10px;
+  top: 10px;
   left: 10px;
 }
 
-.chessboard{
+.chessboard {
   width: 50px;
   height: 50px;
   margin-right: 70px;
@@ -443,10 +418,35 @@ button:active {
   color: var(--fire-orange);
 }
 
+/* SOCIAL */
+.social {
+  background-color: var(--light-black);
+  display: none;
+}
+
+.social div {
+  display: flex;
+  margin: 0 10%;
+  padding: 10px 0;
+  justify-content: end;
+  gap: 1rem;
+  align-items: center;
+  font-size: 14px;
+}
+
+.social div img {
+  height: 100%;
+}
+
+.social div a {
+  color: white;
+  height: 18px;
+}
+
 /* MEDIA QUERY */
 @media only screen and (min-width: 768px) {
   /* NAVBAR */
-  .social{
+  .social {
     display: block;
   }
 
@@ -567,16 +567,16 @@ button:active {
   }
 
   /* LOGOS ABOUT */
-  .lineup-about{
-    display:none;
+  .lineup-about {
+    display: none;
   }
 
-  .footer-about{
+  .footer-about {
     background-color: var(--black);
     color: white;
   }
 
-  .footer-about img{
+  .footer-about img {
     content: url(./logos/ultra-white.png);
   }
 }
