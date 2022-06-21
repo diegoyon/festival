@@ -39,6 +39,31 @@ footer p {
   font-size: 12px;
 }
 
+/* SOCIAL */
+.social{
+  background-color: var(--light-black);
+  display: none;
+}
+
+.social div{
+  display: flex;
+  margin: 0 10%;
+  padding: 10px 0;
+  justify-content: end;
+  gap: 1rem;
+  align-items: center;
+  font-size: 14px;
+}
+
+.social div img{
+  height: 100%;
+}
+
+.social div a{
+  color: white;
+  height: 18px;
+}
+
 /* NAVBAR */
 .mobile {
   display: flex;
@@ -405,6 +430,10 @@ button:active {
 /* MEDIA QUERY */
 @media only screen and (min-width: 768px) {
   /* NAVBAR */
+  .social{
+    display: block;
+  }
+
   .mobile {
     display: none;
   }
@@ -413,7 +442,7 @@ button:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     font-weight: 600;
     margin: 0 10%;
   }
@@ -455,6 +484,12 @@ button:active {
   }
 
   /* HEADLINE */
+  .headline,
+  .about-headline {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .headline-container {
     display: flex;
     flex-direction: column;
