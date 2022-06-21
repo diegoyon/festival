@@ -290,6 +290,10 @@ footer p{
 /* INFORMATION & PREVIOUS*/
 .information{
   padding: 3rem 2rem;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .information p:nth-child(3), .previous p:nth-child(3){
@@ -302,7 +306,8 @@ footer p{
   width: 100%;
   border: 1px solid var(--light-gray);
   padding: 2rem;
-  margin: 3rem 0;
+  margin: 3rem auto;
+  max-width: 400px;
 }
 
 .previous{
@@ -314,6 +319,11 @@ footer p{
 .previous img{
   width: 100%;
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-40deg) saturate(600%);
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
 }
 
 .container{
@@ -339,6 +349,10 @@ footer p{
   color: white;
   font-size: 14px;
   width: 300px;
+}
+
+.container img{
+  max-width: 350px;
 }
 
 /* MEDIA QUERY */
@@ -433,5 +447,11 @@ footer p{
   /* FEATURED DJS */
   .grid-container{
     margin: 0 auto;
+  }
+
+  .flex-container{
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
   }
 }
