@@ -72,10 +72,20 @@ for (let i = 0; i < djs.length; i += 1) {
   const item = document.createElement('div');
   item.className = 'grid-item';
 
+  const imageContainer = document.createElement('div');
+  imageContainer.className = 'image-container';
+  item.appendChild(imageContainer)
+
+  const chessboard = document.createElement('img');
+  chessboard.src = './images/chessboard.png'
+  chessboard.className = 'chessboard';
+  imageContainer.appendChild(chessboard)
+
   const img = document.createElement('img');
   img.src = djs[i].image;
   img.alt = djs[i].name;
-  item.appendChild(img);
+  img.className = 'dj-image';
+  imageContainer.appendChild(img);
 
   const description = document.createElement('div');
   description.className = 'description';
