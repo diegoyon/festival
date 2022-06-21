@@ -65,6 +65,8 @@ h1{
 
 .about-headline h1{
   text-align: center;
+  max-width: 700px;
+  margin: auto;
 }
 
 .headline p:first-of-type{
@@ -76,6 +78,7 @@ h1{
   margin-bottom: 20px;
   color: var(--light-black);
   font-weight: 600;
+  max-width: 400px;
 }
 
 .about-headline p:first-of-type{
@@ -83,10 +86,10 @@ h1{
   text-align: center;
   padding: 10px;
   background-color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
   line-height: 25px;
   border: 1px solid var(--light-gray);
+  max-width: 600px;
+  margin: 30px auto;
 }
 
 h4{
@@ -197,7 +200,7 @@ button:hover, button:active{
 
 /* DJS SECTION */
 .djs{
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 
 .grid-container{
@@ -383,6 +386,10 @@ footer p{
     flex-direction: column;
     margin: 0 10%;
     max-width: 800px;
+  }
+
+  .about-headline h2{
+    display: none;
   }
 
   h2{
