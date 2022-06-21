@@ -413,11 +413,6 @@ button:active {
   width: fit-content;
 }
 
-.mobile-menu a:hover,
-.mobile-menu a:focus {
-  color: var(--fire-orange);
-}
-
 /* SOCIAL */
 .social {
   background-color: var(--light-black);
@@ -441,6 +436,11 @@ button:active {
 .social div a {
   color: white;
   height: 18px;
+}
+
+.mobile-menu a:hover,
+.mobile-menu a:focus {
+  color: var(--fire-orange);
 }
 
 /* MEDIA QUERY */
