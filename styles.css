@@ -31,6 +31,10 @@ a{
   background-color: rgb(243,243,243);
 }
 
+.mobile img{
+  cursor: pointer;
+}
+
 .desktop{
   display: none;
 }
@@ -354,6 +358,41 @@ footer p{
 
 .container img{
   max-width: 350px;
+}
+
+
+/* MOBILE MENU */
+.mobile-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 32px;
+  padding: 3rem;
+  border-right: 4px solid var(--fire-orange);
+}
+
+.noscroll{
+  overflow: hidden;
+}
+
+.iconx{
+  width: 16px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.mobile-menu a{
+  width: fit-content;
+}
+
+.mobile-menu a:hover, .mobile-menu a:focus{
+  color: var(--fire-orange);
 }
 
 /* MEDIA QUERY */
