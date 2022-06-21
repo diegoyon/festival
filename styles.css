@@ -39,8 +39,6 @@ footer p {
   font-size: 12px;
 }
 
-
-
 /* NAVBAR */
 .mobile {
   display: flex;
@@ -289,10 +287,7 @@ button:active {
   height: 40px;
 }
 
-
-
 /* ABOUT ME PAGE */
-
 /* INFORMATION & PREVIOUS */
 .information {
   padding: 3rem 2rem;
@@ -361,7 +356,6 @@ button:active {
 .container img {
   max-width: 350px;
 }
-
 
 /* MOBILE MENU */
 .mobile-menu {
@@ -449,8 +443,6 @@ button:active {
   .desktop ul li a:focus {
     color: var(--fire-orange);
   }
-
-
 
   /* HEADLINE */
   .headline-container {
