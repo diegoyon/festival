@@ -372,6 +372,15 @@ button:active {
   font-size: 32px;
   padding: 3rem;
   border-right: 4px solid var(--fire-orange);
+  animation-duration: 1s;
+  animation-name: appearLeft;
+  animation-iteration-count: 1;
+}
+
+@keyframes appearLeft {
+  from {
+    transform: translate(-100%, 0);
+  }
 }
 
 .noscroll {
