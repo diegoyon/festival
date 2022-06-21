@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   font-family: var(--lato);
+  scroll-behavior: smooth;
 }
 
 a{
@@ -367,7 +368,7 @@ footer p{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 10%;
   }
 
@@ -387,11 +388,22 @@ footer p{
     gap:20px;
   }
 
+  .desktop ul li a:hover,  .desktop ul li a:focus{
+    color: var(--fire-orange);
+  }
+
   .campaign a{
     border: 4px solid var(--fire-orange);
     padding: 10px;
     color: var(--fire-orange);
     flex-shrink: 0;
+    transition-property: background-color, color;
+    transition-duration: 1s,1s;
+  }
+
+  .campaign a:hover, .campaign a:focus{
+    background-color: var(--fire-orange);
+    color: white;
   }
 
   /* HEADLINE */
