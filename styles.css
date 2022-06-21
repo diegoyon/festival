@@ -146,6 +146,7 @@ h3{
   flex-direction: column;
   gap: 12px;
   max-width: 550px;
+  justify-content: center;
 }
 
 .program-item{
@@ -190,6 +191,10 @@ button:hover, button:active{
   color: var(--fire-orange);
 }
 
+.whole-program{
+  display: none;
+}
+
 /* DJS SECTION */
 .djs{
   padding: 1rem;
@@ -198,6 +203,8 @@ button:hover, button:active{
 .grid-container{
   display: grid;
   gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  max-width: 800px;
 }
 
 .grid-item{
@@ -404,7 +411,20 @@ footer p{
     text-align: center;
     padding:30px 20px 20px 20px;
   }
-  /* .program-item i{
-    height: 50px;
-  } */
+
+  button{
+    display: none;
+  }
+
+  .whole-program{
+    display: block;
+    color: white;
+    text-decoration: underline;
+    margin: 2rem;
+  }
+  
+  /* FEATURED DJS */
+  .grid-container{
+    margin: 0 auto;
+  }
 }
