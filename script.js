@@ -74,12 +74,12 @@ for (let i = 0; i < djs.length; i += 1) {
 
   const imageContainer = document.createElement('div');
   imageContainer.className = 'image-container';
-  item.appendChild(imageContainer)
+  item.appendChild(imageContainer);
 
   const chessboard = document.createElement('img');
-  chessboard.src = './images/chessboard.png'
+  chessboard.src = './images/chessboard.png';
   chessboard.className = 'chessboard';
-  imageContainer.appendChild(chessboard)
+  imageContainer.appendChild(chessboard);
 
   const img = document.createElement('img');
   img.src = djs[i].image;
