@@ -54,6 +54,10 @@ footer p {
   display: none;
 }
 
+.mobile-items {
+  display: none;
+}
+
 /* HEADLINE */
 .headline,
 .about-headline {
