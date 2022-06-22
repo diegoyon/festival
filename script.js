@@ -1,7 +1,7 @@
 // MOBILE MENU
 const hamburger = document.querySelector('.mobile img');
 const body = document.querySelector('body');
-let menuitems = document.querySelectorAll('.desktop ul li a');
+let menuitems = document.querySelectorAll('.mobile-items a');
 menuitems = [...menuitems];
 
 function displaymenu() {
