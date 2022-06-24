@@ -67,6 +67,7 @@ footer p {
   padding-top: 4rem;
   padding-bottom: 4rem;
   background-color: rgb(243, 243, 243);
+  align-items: center;
 }
 
 h2 {
@@ -508,6 +509,7 @@ button:active {
   .about-headline {
     padding-left: 0;
     padding-right: 0;
+    align-items: flex-start;
   }
 
   .headline-container {
